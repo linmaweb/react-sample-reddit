@@ -1,0 +1,13 @@
+.thumbnail {
+  width: 64px;
+  height: 56px;
+  margin: 8px 15px 8px 10px;
+}
+
+.thumbnail.self {
+  background: url("//b.thumbs.redditmedia.com/XWINAyK1fHqmkcRwoZGwsASV7l6fl_cRG_5u_o9Dwqk.png") -73px -80px;
+}
+
+.thumbnail.default {
+  background: url("//b.thumbs.redditmedia.com/XWINAyK1fHqmkcRwoZGwsASV7l6fl_cRG_5u_o9Dwqk.png") -143px -80px;
+}

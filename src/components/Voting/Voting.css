@@ -1,0 +1,13 @@
+.voting {
+  color: #aeaeae;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.voting i {
+  cursor: pointer;
+}
+.voting i:hover {
+  color: #ffaa3f;
+}

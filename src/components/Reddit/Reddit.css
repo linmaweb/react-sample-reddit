@@ -1,0 +1,38 @@
+.content {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  flex: 1;
+}
+
+.score {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.title a {
+  font-weight: normal;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+.title a:visited {
+  color: #333;
+}
+
+.action {
+  margin-left: 10px;
+  color: #777;
+  font-size: 14px;
+}
+
+.comments {
+  color: #33a8ff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.submitted {
+  color: #777;
+  font-size: 14px;
+  margin: 5px 0;
+}
