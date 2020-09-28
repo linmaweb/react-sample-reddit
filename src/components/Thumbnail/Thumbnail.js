@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./Thumbnail.css";
 
 const Thumbnail = ({ post }) => {
@@ -10,10 +9,6 @@ const Thumbnail = ({ post }) => {
   } else {
     return <img className="thumbnail" alt="thumbnail" src={post.thumbnail} />;
   }
-};
-
-Thumbnail.propTypes = {
-  post: PropTypes.object.isRequired,
 };
 
 export default Thumbnail;

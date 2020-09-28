@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Title from "../Title/Title";
 import RedditListing from "../RedditListing/RedditListing";
 import "./Reddit.css";
 
@@ -55,11 +56,14 @@ export default class Reddit extends Component {
     );
 
     return (
-      <RedditListing
-        posts={posts}
-        onUpvote={this.handleUpvote}
-        onDownvote={this.handleDownvote}
-      />
+      <>
+        <Title type="Reddit" />
+        <RedditListing
+          posts={posts}
+          onUpvote={this.handleUpvote}
+          onDownvote={this.handleDownvote}
+        />
+      </>
     );
   }
 }

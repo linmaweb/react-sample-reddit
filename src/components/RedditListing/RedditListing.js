@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import RedditPost from "../RedditPost/RedditPost";
 import "./RedditListing.css";
 
@@ -14,11 +13,5 @@ const RedditListing = ({ posts, onUpvote, onDownvote }) => (
       ))}
   </ul>
 );
-
-RedditListing.propTypes = {
-  posts: PropTypes.array.isRequired,
-  onUpvote: PropTypes.func.isRequired,
-  onDownvote: PropTypes.func.isRequired,
-};
 
 export default RedditListing;

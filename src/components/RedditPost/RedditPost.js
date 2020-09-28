@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import Time from "../../funcs";
 import Thumbnail from "../Thumbnail/Thumbnail";
 import Voting from "../Voting/Voting";
@@ -42,10 +41,4 @@ export default class RedditPost extends Component {
       </div>
     );
   }
-
-  static propTypes = {
-    post: PropTypes.object.isRequired,
-    onUpvote: PropTypes.func.isRequired,
-    onDownvote: PropTypes.func.isRequired,
-  };
 }
