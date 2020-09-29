@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Reddit from "./components/Reddit/Reddit";
+import App from "./components/App/App";
 import "./index.css";
 
-ReactDOM.render(<Reddit />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector("#root"));

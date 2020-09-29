@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./Voting.css";
 
 const Voting = ({ post, onUpvote, onDownvote }) => (
@@ -9,11 +8,5 @@ const Voting = ({ post, onUpvote, onDownvote }) => (
     <i className="fa fa-arrow-down" onClick={onDownvote} />
   </div>
 );
-
-Voting.propTypes = {
-  post: PropTypes.object.isRequired,
-  onUpvote: PropTypes.func.isRequired,
-  onDownvote: PropTypes.func.isRequired,
-};
 
 export default Voting;
